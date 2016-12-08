@@ -1,7 +1,7 @@
 # PostgreSQL-court-reservation-system-design
 Course project of Database systems
 
-##Here is the description and requirement of this court reservation system.
+###Here is the description and requirement of this court reservation system:
 
 Racquetball league 
 
@@ -14,3 +14,12 @@ Racquetball league
 - Each dropped reservation results in a penalty point for the member that made the reservation. 
 - Penalty points reduce the lead time for making reservations, one day per point. (Hence, a member who has 2 penalty points can make reservations no more than 5 days prior to a game instead of 7 days. Closer to a planned game date, there will be fewer courts and timeslots available.) 
 - Each penalty point is pardoned exactly 6 weeks after it was incurred.
+
+
+
+What I did:
+- Created the entity relationship diagram of this reservation system.(see Court Reservation System ER DiagramV3.pdf)
+- Created the relational schema.(see Relational SchemaV3.pdf)
+- Created tables. (see crsdb-create-syu31.sql)
+- Created example data records. (see crsdb-load-syu31.sql)
+- Queries on this reservation system. (see crsdb-query-syu31.sql)
