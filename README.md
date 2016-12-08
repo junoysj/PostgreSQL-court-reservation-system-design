@@ -17,7 +17,7 @@ Racquetball league
 
 
 
-What I did:
+###What I did:
 - Created the entity relationship diagram of this reservation system.(see Court Reservation System ER DiagramV3.pdf)
 - Created the relational schema.(see Relational SchemaV3.pdf)
 - Created tables. (see crsdb-create-syu31.sql)
